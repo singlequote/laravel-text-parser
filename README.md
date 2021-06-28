@@ -1,7 +1,7 @@
 # Easy text parser
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/SingleQuote/parser.svg?style=flat-square)](https://packagist.org/packages/SingleQuote/Parser)
-[![Total Downloads](https://img.shields.io/packagist/dt/SingleQuote/parser.svg?style=flat-square)](https://packagist.org/packages/SingleQuote/Parser)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/singlequote/laravel-text-parser.svg?style=flat-square)](https://packagist.org/packages/singlequote/laravel-text-parser)
+[![Total Downloads](https://img.shields.io/packagist/dt/singlequote/laravel-text-parser.svg?style=flat-square)](https://packagist.org/packages/singlequote/laravel-text-parser)
 
 
 A package to replace words in a text with values from a array. Also supports aliases and excluded properties.
