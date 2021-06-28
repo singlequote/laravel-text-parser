@@ -1,0 +1,51 @@
+{
+  "name": "Quotecnl/LaravelTextParser",
+  "description": "A package to replace words in a text with values from a array. Also supports aliases and excluded properties",
+  "keywords": [
+    "Quotecnl",
+    "Text",
+    "Parser",
+    "Laravel"
+  ],
+  "homepage": "https://github.com/Quotecnl/laravel-text-parser",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Quotec",
+      "email": "info@quotec.nl",
+      "homepage": "https://quotec.nl",
+      "role": "Owner"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Quotecnl\\LaravelTextParser\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Quotecnl\\LaravelTextParser\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [],
+      "aliases": {
+        "Parser": "Quotecnl\\LaravelTextParser\\ParserFacade"
+      }
+    }
+  }
+}
