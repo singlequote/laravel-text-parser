@@ -1,6 +1,6 @@
 <?php
 
-namespace Quotecnl\LaravelTextParser;
+namespace SingleQuote\LaravelTextParser;
 
 
 use Exception;

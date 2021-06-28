@@ -1,13 +1,13 @@
 {
-  "name": "Quotecnl/LaravelTextParser",
+  "name": "singlequote/laravel-text-parser",
   "description": "A package to replace words in a text with values from a array. Also supports aliases and excluded properties",
   "keywords": [
-    "Quotecnl",
+    "SingleQuote",
     "Text",
     "Parser",
     "Laravel"
   ],
-  "homepage": "https://github.com/Quotecnl/laravel-text-parser",
+  "homepage": "https://github.com/SingleQuote/laravel-text-parser",
   "license": "MIT",
   "authors": [
     {
@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Quotecnl\\LaravelTextParser\\": "src"
+      "SingleQuote\\LaravelTextParser\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Quotecnl\\LaravelTextParser\\Tests\\": "tests"
+      "SingleQuote\\LaravelTextParser\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -44,7 +44,7 @@
     "laravel": {
       "providers": [],
       "aliases": {
-        "Parser": "Quotecnl\\LaravelTextParser\\ParserFacade"
+        "Parser": "SingleQuote\\LaravelTextParser\\ParserFacade"
       }
     }
   }

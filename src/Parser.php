@@ -1,6 +1,6 @@
 <?php
 
-namespace Quotecnl\LaravelTextParser;
+namespace SingleQuote\LaravelTextParser;
 
 use ArrayAccess;
 use Closure;
@@ -43,7 +43,7 @@ class Parser
      *
      * @param string $text - text to set
      *
-     * @return \Quotecnl\Parser\Parser
+     * @return \SingleQuote\Parser\Parser
      */
     public static function text(?string $text)
     {
@@ -85,7 +85,7 @@ class Parser
      * Validates the parser input
      * Currently only used to detect missing tags
      *
-     * @throws \Quotecnl\Parser\InvalidTagsException
+     * @throws \SingleQuote\Parser\InvalidTagsException
      */
     private function validate()
     {

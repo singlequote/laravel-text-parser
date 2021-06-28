@@ -1,7 +1,7 @@
 # Easy text parser
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Quotecnl/parser.svg?style=flat-square)](https://packagist.org/packages/Quotecnl/Parser)
-[![Total Downloads](https://img.shields.io/packagist/dt/Quotecnl/parser.svg?style=flat-square)](https://packagist.org/packages/Quotecnl/Parser)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/SingleQuote/parser.svg?style=flat-square)](https://packagist.org/packages/SingleQuote/Parser)
+[![Total Downloads](https://img.shields.io/packagist/dt/SingleQuote/parser.svg?style=flat-square)](https://packagist.org/packages/SingleQuote/Parser)
 
 
 A package to replace words in a text with values from a array. Also supports aliases and excluded properties.
@@ -11,7 +11,7 @@ A package to replace words in a text with values from a array. Also supports ali
 You can install the package via composer:
 
 ```bash
-composer require Quotecnl/Parser
+composer require SingleQuote/Parser
 ```
 
 ## Basic Usage
@@ -106,12 +106,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email info@Quotecnl.nl instead of using the issue tracker.
+If you discover any security related issues, please email info@SingleQuote.nl instead of using the issue tracker.
 
 
 ## Credits
 
-- [Quotec](https://github.com/quotecnl)
+- [Quotec](https://github.com/SingleQuote)
 - [All Contributors](../../contributors)
 
 

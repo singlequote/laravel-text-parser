@@ -1,11 +1,11 @@
 <?php
 
-namespace Quotecnl\LaravelTextParser;
+namespace SingleQuote\LaravelTextParser;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Quotecnl\Parser\Parser
+ * @see \SingleQuote\Parser\Parser
  */
 class ParserFacade extends Facade
 {
