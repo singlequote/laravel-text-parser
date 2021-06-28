@@ -11,7 +11,7 @@ A package to replace words in a text with values from a array. Also supports ali
 You can install the package via composer:
 
 ```bash
-composer require SingleQuote/Parser
+composer require singlequote/laravel-text-parser
 ```
 
 ## Basic Usage
@@ -106,7 +106,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email info@SingleQuote.nl instead of using the issue tracker.
+If you discover any security related issues, please email info@quotec.nl instead of using the issue tracker.
 
 
 ## Credits
